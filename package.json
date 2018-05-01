@@ -1,0 +1,13 @@
+{
+  "name": "rubikscube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "sass sass/mainStyle.scss css/mainStyle.css",
+    "start": "firefox localhost:2107 && php -S localhost:2107",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
